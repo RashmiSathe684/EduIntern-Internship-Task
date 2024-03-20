@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Food Paradise</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">Indian Food Paradise</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+                Welcome to Indian Food Paradise</span>
+            </h1>
+
+            <p class="tertiary">
+                Welcome to our Indian food paradise, where every dish is a celebration of rich flavors 
+                and cultural heritage. From fragrant curries to crispy dosas, immerse yourself in the diverse tapestry 
+                of Indian cuisine, lovingly crafted to tantalize your taste buds and ignite your culinary passions.
+            </p>
+
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+        <div class="visual">
+            <img src="img/main.jpeg" alt="" />
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Our Dishes</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="img/meal1.jpg"
+                    class="meal-img" alt="daltadkawithnaan" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Dal Tadka With Naan</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>550</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="img/meal2.jpg"
+                    class="meal-img" alt="chickenbiryani" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--nonvegetarian ">Non-Vegetarian</span>
+                        <!-- <span class="tag tag--paleo">Paleo</span> -->
+                    </div>
+                    <p class="meal-title">Chicken Biryani</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>600</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="img/meal3.jpg"
+                    class="meal-img" alt="masaladosa" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Masasla Dosa</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>250</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>86</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.4</strong> rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>How It's Work</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    Effortlessly place your order with our user-friendly interface, 
+                    designed for convenience.
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                <p>
+                    Indulge in the finest ingredients and authentic flavors, 
+                    meticulously sourced for unparalleled quality.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Fast Delivery</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    Experience prompt delivery straight to your door, ensuring 
+                    your meal arrives fresh and ready to delight.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="img/main2.jpg" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">About Our Restaurant</div>
+                <h2 class="primary">100+ dishes</h2>
+
+                <h3 class="tertiary">Our Delicious Food</h3>
+
+                <p>
+                    Rooted in tradition yet infused with innovation, 
+                    our Indian food paradise is a homage to the vibrant 
+                    flavors and cultural richness of the subcontinent. 
+                    Join us in celebrating the art of Indian cuisine, where 
+                    every dish tells a story of tradition, flavor, and passion.
+                </p>
+
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active">All</li>
+                <li>Starters</li>
+                <li>South Indain Dishes</li>
+                <li>Dal Makhani & Naan</li>
+                <li>Chinese Dishes</li>
+                <li>Biryani's</li>
+                <li>Indian Desserts</li>
+            </ul>
+
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="img/samosa.jpg" alt="" />
+
+                        <div class="title">Samosa | Starters</div>
+
+                        <div class="location">Maharashtra, India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹15.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="img/panipuri.jpg" alt="" />
+
+                        <div class="title">Pani-Puri | Starters</div>
+
+                        <div class="location">Maharashtra, India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹25.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="img/idlivada.jpeg" alt="" />
+
+                        <div class="title">Idli-Vada | South Indian</div>
+
+                        <div class="location">Maharashtra, India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹60.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="img/naan.jpg" alt="" />
+
+                        <div class="title">Butter-Naan | Naan</div>
+
+                        <div class="location">Maharashtra, India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹50.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="img/dalmakhani.jpg" alt="" />
+
+                        <div class="title">Dal Makhani | Dal Makhani & Naan</div>
+
+                        <div class="location">Maharashtra, India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹80.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="img/pizza.jpg" alt="" />
+
+                        <div class="title">Pizza | Chinese Dishes</div>
+
+                        <div class="location">Maharashtra, India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹195.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu-item">
+                        <img src="img/biryani.jpg" alt="" />
+
+                        <div class="title">Chicken Biryani | Biryani's</div>
+
+                        <div class="location">Maharashtra, India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹200.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="img/gulabjamun.jpg" alt="" />
+
+                        <div class="title">Gulab Jamun | Indian Desserts</div>
+
+                        <div class="location">Maharashtra, India</div>
+
+                        <div class="order flex">
+                            <div class="price">₹50.00</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <details>
+                <summary>What are your operating hours?</summary>
+                <div class="content">
+                    <p>
+                        Our restaurant operates from 10:00 AM to 11:00 PM on all days, 
+                        ensuring you can enjoy our delicious offerings at your convenience.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Do you offer any promotions or discounts for regular customers?</summary>
+                <div class="content">
+                    <p>
+                        Yes, we regularly offer promotions and discounts to our loyal customers. 
+                        Keep an eye on our app and social media channels for exclusive deals and offers.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>What safety measures do you have in place for food preparation and delivery?</summary>
+                <div class="content">
+                    <p>
+                        We prioritize the safety and well-being of our customers and staff. Our restaurant 
+                        adheres to strict hygiene standards, and our delivery partners follow contactless 
+                        delivery protocols to ensure a safe dining experience.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Are there options for vegetarian or non-vegetarian customers?</summary>
+                <div class="content">
+                    <p>
+                        Yes, our diverse menu caters to both vegetarian and non-vegetarian preferences, 
+                        offering a wide range of dishes to satisfy every palate. Whether you prefer meat-free 
+                        options or crave savory meats, we have something delicious for everyone to enjoy.
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+        <div class="container flex">
+            <div class="app-photo">
+                <img width="500px" src="img/downloadapp.png" alt="" />
+            </div>
+
+            <div class="text">
+                <h2 class="secondary">Download The Indian Food Paradise  App</h2>
+                <p>
+                    Experience the ultimate convenience of ordering your favorite Indian delicacies 
+                    with just a few taps. Download our app now to explore our mouthwatering menu, 
+                    enjoy exclusive deals, and indulge in the flavors of India, anytime, anywhere.
+                </p>
+
+                <div class="download flex">
+                    <div class="app-store">
+                        <ion-icon name="logo-google-playstore"></ion-icon>
+                        <p>
+                            GET IT ON <br />
+                            <span>Google Play</span>
+                        </p>
+                    </div>
+
+                    <div class="app-store">
+                        <ion-icon name="logo-apple"></ion-icon>
+                        <p>
+                            Donload on the <br />
+                            <span>App Store</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex">
+            <div class="footer-about">
+                <h2>About</h2>
+                <p>
+                    Step into our culinary crossroads, where Indian heritage dances
+                    with Western innovation. Explore a menu that bridges cultures, 
+                    offering a tapestry of flavors that redefine the boundaries of 
+                    taste. Join us in celebrating diversity, one dish at a time.
+                </p>
+            </div>
+
+            <div class="footer-category">
+                <h2>Our Menu</h2>
+
+                <ul>
+                    <li>Starters</li>
+                    <li>South Indain Dishes</li>
+                    <li>Dal Makhani & Naan</li>
+                    <li>Chinese Dishes</li>
+                    <li>Biryani's</li>
+                    <li>Indian Desserts</li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="get-in-touch">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li>Account</li>
+                    <li>Support Center</li>
+                    <li>Feedback</li>
+                    <li>Suggession</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; 2024</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+
+</html>
